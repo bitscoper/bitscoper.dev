@@ -1,0 +1,7 @@
+# By Abdullah As-Sadeed
+
+/public/
+/resources/
+/assets/jsconfig.json
+hugo_stats.json
+/.hugo_build.lock

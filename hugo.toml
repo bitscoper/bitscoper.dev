@@ -1,0 +1,192 @@
+# By Abdullah As-Sadeed
+
+# Formatter: https://string.is/toml-formatter
+
+baseURL = "https://bitscoper.dev/"
+buildDrafts = true
+buildExpired = true
+buildFuture = true
+canonifyURLs = false
+capitalizeListTitles = true
+cleanDestinationDir = true
+defaultcontentlanguage = "en-us"
+disableHugoGeneratorInject = true
+disableKinds = [ "taxonomy" ]
+disableLiveReload = false
+disablePathToLower = false
+enableEmoji = true
+enableRobotsTXT = true
+environment = "production"
+hasCJKLanguage = false
+languageCode = "en-us"
+noChmod = false
+noTimes = false
+refLinksErrorLevel = "ERROR"
+templateMetrics = true
+templateMetricsHints = true
+theme = "hugo-coder"
+timeZone = "Asia/Dhaka"
+title = "bitscoper"
+titleCaseStyle = "chicago"
+uglyURLs = false
+
+[[headers]]
+for = "/**"
+
+  [headers.values]
+  Referrer-Policy = "no-referrer"
+  Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+  X-Content-Type-Options = "nosniff"
+  X-Frame-Options = "DENY"
+
+[imaging]
+quality = 100
+resampleFilter = "Lanczos"
+
+  [imaging.exif]
+  disableDate = true
+  disableLatLong = true
+  excludeFields = ".*"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+codeFences = true
+lineNos = true
+lineNumbersInTable = true
+style = "github-dark"
+
+[[menu.main]]
+name = "Stack"
+weight = 1
+url = "stack/"
+
+[[menu.main]]
+name = "Projects"
+weight = 2
+url = "projects/"
+
+[[menu.main]]
+name = "Posts"
+weight = 3
+url = "posts/"
+
+[[menu.main]]
+name = "Resume"
+weight = 4
+url = "https://github.com/bitscoper/Bitscoper_Resume/"
+
+[[menu.main]]
+name = "Meta"
+weight = 5
+url = "meta/"
+
+[minify]
+disableCSS = false
+disableHTML = false
+disableJS = false
+disableJSON = false
+disableSVG = false
+disableXML = false
+minifyOutput = true
+
+[pagination]
+pagerSize = 200
+
+[params]
+author = "Abdullah As-Sadeed"
+avatarurl = "images/bitscoper.png"
+colorScheme = "auto"
+# commit = "https://github.com/bitscoper/bitscoper.dev/tree/main/"
+customCSS = [ "css/devicon.min.css" ]
+description = "Developer | Open-Source Activist | NixOS Lover"
+disableDefaultJsScripts = false
+enableTwemoji = true
+faviconSVG = "images/bitscoper.ico"
+hidecolorschemetoggle = false
+info = "Developer | Open-Source Activist | NixOS Lover"
+keywords = "abdullah,as-sadeed,sadeed,bitscoper,developer,programmer,activist"
+maxSeeAlsoItems = 4
+rtl = false
+since = 2_014
+touchIcon = "images/apple-touch-icon.png"
+
+  [params.csp]
+  childsrc = [ "'self'" ]
+  connectsrc = [ "'self'" ]
+  fontsrc = [ "'self'" ]
+  formaction = [ "'self'" ]
+  framesrc = [ "'self'" ]
+  imgsrc = [ "'self'" ]
+  objectsrc = [ "'self'" ]
+  scriptsrc = [ "'self'", "'unsafe-inline'" ]
+  stylesrc = [ "'self'", "'unsafe-inline'" ]
+
+  [[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/bitscoper/"
+
+  [[params.social]]
+  name = "Microsoft Store"
+  icon = "fa-brands fa-microsoft fa-2x"
+  weight = 2
+  url = "https://apps.microsoft.com/search/publisher?name=bitscoper"
+
+  [[params.social]]
+  name = "Google Play"
+  icon = "fa-brands fa-google-play fa-2x"
+  weight = 3
+  url = "https://play.google.com/store/apps/dev?id=6957844332349680509"
+
+  [[params.social]]
+  name = "Amazon Elastic Container Registry Public Gallery"
+  icon = "fa-brands fa-aws fa-2x"
+  weight = 4
+  url = "https://gallery.ecr.aws/n7r2f3q1/"
+
+  [[params.social]]
+  name = "LinkedIn"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 5
+  url = "https://linkedin.com/in/bitscoper/"
+
+  [[params.social]]
+  name = "Coursera"
+  icon = "fa-solid fa-certificate fa-2x"
+  weight = 6
+  url = "https://coursera.org/user/fd8c65b5569418bb983e3271308f5dfd/"
+
+  [[params.social]]
+  name = "Credly"
+  icon = "fa-solid fa-award fa-2x"
+  weight = 7
+  url = "https://credly.com/users/bitscoper/"
+
+  [[params.social]]
+  name = "ResearchGate"
+  icon = "fa-brands fa-researchgate fa-2x"
+  weight = 8
+  url = "https://researchgate.net/profile/Abdullah-As-Sadeed/"
+
+  [[params.social]]
+  name = "ORCID"
+  icon = "fa-brands fa-orcid fa-2x"
+  weight = 9
+  url = "https://orcid.org/0009-0006-8048-9695/"
+
+  [[params.social]]
+  name = "AlmaLinux OS Foundation"
+  icon = "fa-brands fa-redhat fa-2x"
+  weight = 10
+  url = "https://wiki.almalinux.org/election2023.html#election-committee"
+
+[services.rss]
+limit = -1
+
+[sitemap]
+disable = false
+filename = "sitemap.xml"
+priority = -1
