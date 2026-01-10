@@ -5,7 +5,7 @@ title = 'Projects'
 
 ## 🪧 Bitscoper CyberKit
 
-A Flutter application offering IPv4 Subnet Scanner, mDNS Scanner, TCP Port Scanner, Route Tracer, Pinger, File Hash Calculator, String Hash Calculator, CVSS Calculator, Base Encoder, Morse Code Translator, QR Code Generator, Open Graph Protocol Data Extractor, Series URI Crawler, DNS Record Retriever, WHOIS Retriever, and Wi-Fi Information Viewer.
+A Flutter application offering Bluetooth Low Energy Scanner, IPv4 Subnet Scanner, mDNS Scanner, UPnP Scanner, Route Tracer, TCP Port Scanner, Pinger, File Hash Calculator, String Hash Calculator, CVSS Calculator, Base Encoder, Morse Code Translator, QR Code Generator, OGP Data Extractor, Series URI Crawler, DNS Record Retriever, WHOIS Retriever, and Wi-Fi Details Viewer.
 
 <i class="devicon-github-original"></i> <a href="https://github.com/bitscoper/Bitscoper_CyberKit/releases/latest/"> GitHub Releases</a><br />
 <i class="fa-brands fa-microsoft"></i> <a href="https://apps.microsoft.com/detail/9mv2046tz302"> Microsoft Store</a><br />
@@ -13,69 +13,77 @@ A Flutter application offering IPv4 Subnet Scanner, mDNS Scanner, TCP Port Scann
 <i class="devicon-docker-plain"></i> <a href="https://github.com/bitscoper/Bitscoper_CyberKit/pkgs/container/bitscoper_cyberkit/"> GitHub Container Registry</a><br />
 <i class="devicon-amazonwebservices-plain-wordmark"></i> <a href="https://gallery.ecr.aws/n7r2f3q1/bitscoper/bitscoper_cyberkit/"> Amazon Elastic Container Registry Public Gallery</a>
 
-### 1️⃣ IPv4 Subnet Scanner
+### 1. Bluetooth Low Energy Scanner
+
+Scans for nearby Bluetooth Low Energy (BLE), Bluetooth LE, or Bluetooth Smart devices.
+
+### 2. IPv4 Subnet Scanner
 
 Scans for pingable IP addresses from `[].[].[].1` to `[].[].[].254` within a specified subnet.
 
-### 2️⃣ mDNS Scanner
+### 3. mDNS Scanner
 
-Scans for mDNS broadcasts and collects associated data.
+Scans for Multicast DNS (mDNS) broadcasts and collects associated service information.
 
-### 3️⃣ TCP Port Scanner
+### 4. UPnP Scanner
 
-Scans ports from 0 to 65535 on a target server and reports the open ports.
+Scans for Universal Plug and Play (UPnP) broadcasts, including Digital Living Network Alliance (DLNA), and collects associated device information.
 
-### 4️⃣ Route Tracer
+### 5. Route Tracer
 
 Traces the route to a target server, showing each hop along the route with its corresponding IP address.
 
-### 5️⃣ Pinger
+### 6. TCP Port Scanner
 
-Pings a target server and reports the IP address, TTL, and time.
+Scans Transmission Control Protocol (TCP) ports from 0 to 65535 on a target server and reports the open ports.
 
-### 6️⃣ File Hash Calculator
+### 7. Pinger
 
-Calculates MD5, SHA1, SHA224, SHA256, SHA384, and SHA512 hashes of files.
+Pings a target server and reports the IP address, Time To Live (TTL), and time.
 
-### 7️⃣ String Hash Calculator
+### 8. File Hash Calculator
 
-Calculates MD5, SHA1, SHA224, SHA256, SHA384, and SHA512 hashes of a string.
+Calculates Message Digest 5 (MD5), Secure Hash Algorithm 1 (SHA1), Secure Hash Algorithm 224 (SHA224), Secure Hash Algorithm 256 (SHA256), Secure Hash Algorithm 384 (SHA384), and Secure Hash Algorithm 512 (SHA512) hashes of files.
 
-### 8️⃣ CVSS Calculator
+### 9. String Hash Calculator
+
+Calculates Message Digest 5 (MD5), Secure Hash Algorithm 1 (SHA1), Secure Hash Algorithm 224 (SHA224), Secure Hash Algorithm 256 (SHA256), Secure Hash Algorithm 384 (SHA384), and Secure Hash Algorithm 512 (SHA512) hashes of a string.
+
+### 10. CVSS Calculator
 
 Uses Common Vulnerability Scoring System (CVSS) v3.1 to calculate base score of exploitability.
 
-### 9️⃣ Base Encoder
+### 11. Base Encoder
 
 Encodes a string into binary (Base2), ternary (Base3), quaternary (Base4), quinary (Base5), senary (Base6), octal (Base8), decimal (Base10), duodecimal (Base12), hexadecimal (Base16), Base32, Base32Hex, Base36, Base58, Base62, and Base64.
 
-### 🔟 Morse Code Translator
+### 12. Morse Code Translator
 
 Translates English to Morse code and vice versa.
 
-### 1️⃣1️⃣ QR Code Generator
+### 13. QR Code Generator
 
 Generates QR (Quick Response) Code from a string.
 
-### 1️⃣2️⃣ Open Graph Protocol Data Extractor
+### 14. OGP Data Extractor
 
 Extracts Open Graph Protocol (OGP) data of a webpage.
 
-### 1️⃣3️⃣ Series URI Crawler
+### 15. Series URI Crawler
 
-Crawls the available webpages in series by number and lists the available ones.
+Crawls webpages generated from a combination of Uniform Resource Identifier (URI) and number series, and lists the available ones.
 
-### 1️⃣4️⃣ DNS Record Retriever
+### 16. DNS Record Retriever
 
-Retrieves A, AAAA, ANY, CAA, CDS, CERT, CNAME, DNAME, DNSKEY, DS, HINFO, IPSECKEY, NSEC, NSEC3PARAM, NAPTR, PTR, RP, RRSIG, SOA, SPF, SRV, SSHFP, TLSA, WKS, TXT, NS, and MX records of a domain name (forward) or an IP address (reverse).
+Retrieves Address (A), IPv6 Address (AAAA), Any Record (ANY), Certification Authority Authorization (CAA), Child Delegation Signer (CDS), Certificate (CERT), Canonical Name (CNAME), Delegation Name (DNAME), Domain Name System Key (DNSKEY), Delegation Signer (DS), Host Information (HINFO), IPsec Key (IPSECKEY), Next Secure (NSEC), Next Secure version 3 Parameters (NSEC3PARAM), Naming Authority Pointer (NAPTR), Pointer (PTR), Responsible Person (RP), Resource Record Signature (RRSIG), Start of Authority (SOA), Sender Policy Framework (SPF), Service Locator (SRV), SSH Fingerprint (SSHFP), Transport Layer Security Authentication (TLSA), Well Known Services (WKS), Text (TXT), Name Server (NS), and Mail Exchange (MX) records of a domain name (forward lookup) or an IP address (reverse lookup).
 
-### 1️⃣5️⃣ WHOIS Retriever
+### 17. WHOIS Retriever
 
 Retrieves WHOIS information about a domain name.
 
-### 1️⃣6️⃣ Wi-Fi Information Viewer
+### 18. Wi-Fi Details Viewer
 
-Displays information about the currently connected Wi-Fi network.
+Displays details of the currently connected Wireless Fidelity (Wi-Fi) network.
 
 ---
 
@@ -103,4 +111,3 @@ A social network, built from scratch, for a better world.
 <i class="fa-brands fa-microsoft"></i> <a href="https://www.microsoft.com/store/apps/9P8VZN45VV94"> Microsoft Store</a><br />
 <i class="fa-brands fa-google-play"></i> <a href="https://play.google.com/store/apps/details?id=xyz.telechirkut.pwa"> Google Play</a><br />
 <i class="fa-solid fa-globe"></i> <a href="https://telechirkut.bitscoper.dev/"> Progressive Web Application</a><br />
-
